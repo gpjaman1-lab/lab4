@@ -1,0 +1,50 @@
+/*filename: Ong Lun Hang */
+/*author: Ong Lun Hang*/
+/*created: 8/April/2026*/
+/*last modified: 8/April/2026*/
+
+h1 {
+  color: blueviolet;
+}
+
+#a {
+  border: 1px solid black;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+#para1 {
+  font-style: italic;
+}
+
+h2 {
+  color: green;
+}
+
+#Headings {
+  color: red;
+}
+
+span {
+  color: orange;
+}
+
+table, th, td {
+  border-style: double;
+  border: 2px solid black;
+}
+
+* {
+  margin: 10pt;
+}
+
+#images {
+  text-align: center;
+}
