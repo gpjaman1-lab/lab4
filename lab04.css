@@ -1,52 +1,86 @@
-/*filename: Ong Lun Hang */
-/*author: Ong Lun Hang*/
-/*created: 8/April/2026*/
-/*last modified: 8/April/2026*/
+/*
+filename: lab04.css
+author: Md Yeasin Tanvir
+created: 10 April 2026
+last modified: 10 April 2026
+description: Styling for lab04.html
+*/
 
-h1 {
-  color: blueviolet;
-}
-
-#a {
-  border: 1px solid black;
-  color: black;
-}
-
-a {
-  color: black;
-}
-
-header {
-  border-bottom: 2px solid black;
-}
-
-#para1 {
-  font-style: italic;
-}
-
-h2 {
-  color: green;
-}
-
-#Headings {
-  color: red;
-}
-
-span {
-  color: orange;
-}
-
-table, th, td {
-  border-style: double;
-  border: 2px solid black;
-}
-
+/* Universal selector */
 * {
-  margin: 10pt;
+    color: #2F4F4F;
+    font-family: Arial, sans-serif;
 }
 
+/* h1 */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* h2 */
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* h3 */
+h3 {
+    color: red;
+}
+
+/* Group selector */
+aside, footer {
+    font-style: italic;
+}
+
+/* Headings font */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Table border */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* ID selector */
 #images {
-  text-align: center;
+    text-align: center;
 }
 
-h2 {font-style: italic;}
+/* Class selector */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Right align (for Jan Feb) */
+th {
+    text-align: right;
+}
+
+/* Contextual selector */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Nested list */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hover effects */
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
