@@ -2,14 +2,18 @@
 filename: lab04.css
 author: Md Yeasin Tanvir
 created: 10 April 2026
-last modified: 10 April 2026
+last modified: 15 April 2026
 description: Styling for lab04.html
 */
 
 /* Universal selector */
 * {
+    font-family: Calibri, sans-serif;
+}
+
+/* Default text color */
+body {
     color: #2F4F4F;
-    font-family: Arial, sans-serif;
 }
 
 /* h1 */
@@ -26,8 +30,8 @@ h2 {
     font-weight: bold;
 }
 
-/* h3 */
-h3 {
+/* ✅ FIXED (only specific h3) */
+#headings-title {
     color: red;
 }
 
@@ -58,7 +62,7 @@ table, th, td {
     font-weight: bold;
 }
 
-/* Right align (for Jan Feb) */
+/* Right align */
 th {
     text-align: right;
 }
